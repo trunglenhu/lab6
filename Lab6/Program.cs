@@ -18,7 +18,7 @@ namespace Lab6
                 myConnect.Open();
                 Console.WriteLine(myConnect.State.ToString());
                 Console.WriteLine("Ket noi thanh cong!");
-                Console.WriteLine("Version 1");
+                Console.WriteLine("Version 2");
                 Console.ReadLine();
             }
             catch (SqlException ex)
